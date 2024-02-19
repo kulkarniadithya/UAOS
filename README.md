@@ -44,8 +44,9 @@ Run pre-processing/split_data.py to execute this step.
 </ul>
 
 
-<h2>Citations</h2>
+## Citations
 
+<a id="1">[1]</a> 
 @inproceedings{chakraborty-etal-2023-zero,
     title = "Zero-shot Approach to Overcome Perturbation Sensitivity of Prompts",
     author = "Chakraborty, Mohna  and
@@ -65,6 +66,7 @@ Run pre-processing/split_data.py to execute this step.
     abstract = "Recent studies have demonstrated that natural-language prompts can help to leverage the knowledge learned by pre-trained language models for the binary sentence-level sentiment classification task. Specifically, these methods utilize few-shot learning settings to fine-tune the sentiment classification model using manual or automatically generated prompts. However, the performance of these methods is sensitive to the perturbations of the utilized prompts. Furthermore, these methods depend on a few labeled instances for automatic prompt generation and prompt ranking. This study aims to find high-quality prompts for the given task in a zero-shot setting. Given a base prompt, our proposed approach automatically generates multiple prompts similar to the base prompt employing positional, reasoning, and paraphrasing techniques and then ranks the prompts using a novel metric. We empirically demonstrate that the top-ranked prompts are high-quality and significantly outperform the base prompt and the prompts generated using few-shot learning for the binary sentence-level sentiment classification task.",
 }
 
+<a id="2">[2]</a> 
 @inproceedings{10.1145/3534678.3539386,
 author = {Chakraborty, Mohna and Kulkarni, Adithya and Li, Qi},
 title = {Open-Domain Aspect-Opinion Co-Mining with Double-Layer Span Extraction},
